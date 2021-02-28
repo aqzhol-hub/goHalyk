@@ -21,12 +21,12 @@
 ```
 
 ### PROTECTED REST:
-- POST **/api/public/logout**
+- POST **/api/protected/logout**
 ```json
 LOG OUT
 ```
 
-- POST **/api/public/addstate**
+- POST **/api/protected/addstate**
 ```json
 {
     "Name" : "Online",
@@ -34,19 +34,19 @@ LOG OUT
 }
 ```
 
-- POST **/api/public/updateState**
+- POST **/api/protected/updateState**
 ```json
 Form -> stateID = 7
 ```
 
-- GET **/api/public/mystatus**
+- GET **/api/protected/mystatus**
 ```json
 {
   "status" : "ok"
 }
 ```
 
-- GET **/api/public/allstates**
+- GET **/api/protected/allstates**
 ```json
 {
     "result": [
