@@ -1,0 +1,13 @@
+database:
+  dialect: postgres
+  host:  rogue.db.elephantsql.com
+  port: 5432
+  dbname: zhbvfwki
+  username: zhbvfwki
+  password: 9CjDtthVFj3-qBgzxfneKffMAZ-mcqCG
+  migration: false
+redis:
+  network: tcp
+  addr localhost:6379
+  password
+  db 0
